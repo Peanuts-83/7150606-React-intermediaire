@@ -13,7 +13,7 @@ const StCentered = styled.div`
   text-align: center;
   padding: 5% 20%;
   * {
-    margin-bottom: 60px;
+    margin-bottom: 60px; 
   }
 `
 const StLeft = styled.div`
@@ -21,7 +21,7 @@ const StLeft = styled.div`
   p {
     color: ${colors.secondary};
     font-weight: 300;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
   strong {
     color: ${colors.primary};
@@ -37,7 +37,7 @@ function Results({ StyledLink }) {
         <h1>
           Les compétences dont vous avez besoin: UX Design, frontend, backend
         </h1>
-        <StyledLink to="profiles" $isFullLink>Découvrez nos profils</StyledLink>
+        <StyledLink to="/freelances" $isFullLink>Découvrez nos profils</StyledLink>
       </StCentered>
       <StLeft>
         <p><strong>UX Design</strong><br />
