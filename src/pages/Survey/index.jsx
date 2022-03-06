@@ -44,7 +44,7 @@ function Survey() {
       setDataLoading(true)
       try {
         const response = await fetch(`http://localhost:8000/survey`)
-        const { surveyData } = await response.json()
+        const  {surveyData}  = await response.json()
         setSurveyData(surveyData)
       } catch (err) {
         console.log('===== error =====', err)
